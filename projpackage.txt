@@ -1,0 +1,137 @@
+
+  <store>
+    
+  <element>
+    <key>
+      Convert
+    </key>
+    <value>
+      <category>
+        Demo int and Double Conversion
+      </category>
+      <time>
+        2017/2/7  22:12:28
+      </time>
+      <description>
+        Used for generic Widgets to convert datatype to strings
+      </description>
+      <data>
+        Convert.h,Convert.cpp files
+      </data>
+      <children>
+      </children>
+    </value>
+  </element>
+    
+  <element>
+    <key>
+      CppProperties
+    </key>
+    <value>
+      <category>
+        NoSqlDB
+      </category>
+      <time>
+        2017/2/7  22:12:28
+      </time>
+      <description>
+        Property class template implement setter and getter methods
+      </description>
+      <data>
+        CppProperties.h,CppProperties.cpp files
+      </data>
+      <children>
+      </children>
+    </value>
+  </element>
+    
+  <element>
+    <key>
+      NoSqlDB
+    </key>
+    <value>
+      <category>
+        NoSqlDb
+      </category>
+      <time>
+        2017/2/7  22:12:28
+      </time>
+      <description>
+        In memory NoSql database
+      </description>
+      <data>
+        NoSqlDB.h,NoSql.cpp files
+      </data>
+      <children>
+        <key>
+          XmlDocument
+        </key>
+	 <key>
+          PersistHelp
+        </key>
+ 	<key>
+          CppProperties
+        </key>
+      </children>
+    </value>
+  </element>
+    
+  <element>
+    <key>
+      TestExecutive
+    </key>
+    <value>
+      <category>
+        NoSqlDB
+      </category>
+      <time>
+        2017/2/7  22:12:28
+      </time>
+      <description>
+        Runs the demonstration of project1 requriments
+      </description>
+      <data>
+        TestExecutive.cpp
+      </data>
+      <children>
+ 	<key>
+          XmlDocument
+        </key>
+	 <key>
+          PersistHelp
+        </key>
+ 	<key>
+          CppProperties
+        </key>
+	<key>
+          NoSqlDb
+        </key>
+	<key>
+          Convert
+        </key>
+      </children>
+    </value>
+  </element>
+
+  <element>
+    <key>
+      XmlDocument
+    </key>
+    <value>
+      <category>
+        NoSqlDB
+      </category>
+      <time>
+        2017/2/7  22:12:28
+      </time>
+      <description>
+        Used by other files to convert to and from XML, utilities to parse xml etc..
+      </description>
+      <data>
+        XmlDocument.h,XmlDocument.cpp files
+      </data>
+      <children>
+      </children>
+    </value>
+  </element>
+  </store>

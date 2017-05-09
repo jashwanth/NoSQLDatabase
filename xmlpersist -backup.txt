@@ -1,0 +1,100 @@
+
+  <store>
+    
+  <element>
+    <key>
+      elem1
+    </key>
+    <value>
+      <category>
+        test
+      </category>
+      <time>
+        Sun Feb  5 22:33:39 2017
+      </time>
+      <description>
+        elem1 description data
+      </description>
+      <data>
+        elem1's StrData
+      </data>
+      <children>
+        <key>
+          elem2
+        </key>
+        <key>
+          elem3
+        </key>
+      </children>
+    </value>
+  </element>
+    
+  <element>
+    <key>
+      elem2
+    </key>
+    <value>
+      <category>
+        test
+      </category>
+      <time>
+        Sun Feb  5 22:33:39 2017
+      </time>
+      <description>
+        elem2 description data
+      </description>
+      <data>
+        elem2's StrData
+      </data>
+      <children>
+      </children>
+    </value>
+  </element>
+    
+  <element>
+    <key>
+      elem3
+    </key>
+    <value>
+      <category>
+        test
+      </category>
+      <time>
+        Sun Feb  5 22:33:39 2017
+      </time>
+      <description>
+        elem3 description data
+      </description>
+      <data>
+        elem3's StrData
+      </data>
+      <children>
+        <key>
+          elem4
+        </key>
+      </children>
+    </value>
+  </element>
+    
+  <element>
+    <key>
+      elem4
+    </key>
+    <value>
+      <category>
+        test
+      </category>
+      <time>
+        Sun Feb  5 22:33:39 2017
+      </time>
+      <description>
+        elem4 description data
+      </description>
+      <data>
+        elem4's strData
+      </data>
+      <children>
+      </children>
+    </value>
+  </element>
+  </store>
